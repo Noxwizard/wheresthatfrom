@@ -110,7 +110,6 @@ unset($mark_info);
 // See if there's a company by that name
 //
 $company_info = lookup_company($mysql, $sphinx, $mark);
-print_r($company_info);
 
 // See if there was an exact match
 $exact = false;
