@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^api/v1/trademark$ api.php [QSA,L]
