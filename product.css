@@ -1,0 +1,43 @@
+.container {
+  max-width: 960px;
+}
+
+.bg-primary {
+  background-color: #0050c6 !important;
+}
+
+.bg-primary-faded {
+  background-color: #004fc6c0 !important;
+}
+
+.bg-success {
+  background-color: #00a33ea4 !important;
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+
+/*
+ * SVG globe
+ */
+.globe0 {
+  fill-rule:evenodd;
+  clip-rule:evenodd;
+  fill:#A1E367;
+}
+
+.globe1 {
+  fill-rule:evenodd;
+  clip-rule:evenodd;
+  fill:#2394E0;
+}
